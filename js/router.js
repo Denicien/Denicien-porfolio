@@ -7,5 +7,8 @@ async function loadPage(page){
     const html = await response.text();
 
     app.innerHTML = html;
+    if (page === "projects") {
+        initProjects();
+    }
 
 }
