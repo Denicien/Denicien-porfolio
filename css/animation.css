@@ -242,3 +242,12 @@
 
 
 }
+.skill-list span:hover{
+
+    background:var(--primary);
+
+    color:#0F172A;
+
+    transform:translateY(-4px);
+
+}
