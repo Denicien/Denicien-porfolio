@@ -1,0 +1,244 @@
+.profile-container{
+
+
+    animation:
+    floating 4s ease-in-out infinite;
+
+
+}
+
+
+@keyframes floating{
+
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+@keyframes pulse{
+
+
+    0%{
+
+        transform:scale(.95);
+
+        opacity:.5;
+
+    }
+
+
+    50%{
+
+        transform:scale(1.05);
+
+        opacity:.8;
+
+    }
+
+
+    100%{
+
+        transform:scale(.95);
+
+        opacity:.5;
+
+    }
+
+
+}
+.hero-content{
+
+    max-width:600px;
+
+}
+
+
+.hero-content h1{
+
+
+    font-size:3rem;
+
+    line-height:1.2;
+
+}
+
+
+.hero-content h1 span{
+
+
+    color:var(--primary);
+
+}
+
+
+.hero-content h2{
+
+
+    margin:15px 0;
+
+
+    color:var(--text-secondary);
+
+
+    font-size:1.5rem;
+
+
+}
+
+
+.hero-content p{
+
+
+    color:var(--text-secondary);
+
+
+    line-height:1.8;
+
+
+    margin-bottom:30px;
+
+
+}
+.hero-buttons{
+
+
+    display:flex;
+
+    gap:20px;
+
+
+}
+
+
+.btn{
+
+
+    padding:14px 30px;
+
+
+    border-radius:30px;
+
+
+    transition:.3s;
+
+
+}
+
+
+.primary{
+
+
+    background:var(--primary);
+
+
+    color:#0F172A;
+
+
+}
+
+
+.secondary{
+
+
+    border:1px solid var(--primary);
+
+
+    color:white;
+
+
+}
+
+
+
+.btn:hover{
+
+
+    transform:translateY(-5px);
+
+
+    box-shadow:
+    0 10px 25px
+    rgba(56,189,248,.4);
+
+
+}
+@keyframes floatBadge{
+
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+
+}
+.fade-in{
+
+
+    animation:
+
+    fadeIn 1s ease forwards;
+
+
+}
+
+
+
+@keyframes fadeIn{
+
+
+    from{
+
+        opacity:0;
+
+        transform:
+        translateY(30px);
+
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:
+        translateY(0);
+
+
+    }
+
+
+}

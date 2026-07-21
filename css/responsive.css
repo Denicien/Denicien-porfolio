@@ -1,0 +1,89 @@
+@media(max-width:768px){
+
+
+    .hero{
+    
+    
+        flex-direction:column-reverse;
+    
+    
+        text-align:center;
+    
+    
+    }
+    
+    
+    .profile-container{
+    
+    
+        width:250px;
+    
+        height:250px;
+    
+    
+    }
+    
+    
+    .hero-buttons{
+    
+    
+        justify-content:center;
+    
+    
+    }
+    
+    
+    .hero-content h1{
+    
+    
+        font-size:2rem;
+    
+    
+    }
+    
+    
+    }
+    @media(max-width:768px){
+
+
+        .hero-buttons{
+        
+        
+            flex-direction:column;
+        
+        
+            width:100%;
+        
+        
+        }
+        
+        
+        .btn{
+        
+        
+            justify-content:center;
+        
+        
+        }
+        
+        
+        }
+        @media(max-width:768px){
+
+
+            .footer-container{
+            
+            
+                flex-direction:column;
+            
+            
+                text-align:center;
+            
+            
+                gap:30px;
+            
+            
+            }
+            
+            
+            }

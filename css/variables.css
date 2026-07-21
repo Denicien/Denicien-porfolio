@@ -1,0 +1,32 @@
+:root{
+
+    /* Couleurs */
+
+    --primary:#38BDF8;
+    --primary-dark:#0284C7;
+
+    --background:#0F172A;
+
+    --surface:#1E293B;
+
+    --card:#334155;
+
+    --text:#F8FAFC;
+
+    --text-secondary:#CBD5E1;
+
+    --border:#475569;
+
+    /* Ombres */
+
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+
+    /* Rayons */
+
+    --radius:15px;
+
+    /* Transition */
+
+    --transition:.35s;
+
+}
