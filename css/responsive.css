@@ -100,3 +100,27 @@
                 
                 
                 }
+
+                @media (max-width: 768px){
+
+                    .nav-menu{
+                
+                        display:flex;
+                
+                        overflow-x:auto;
+                
+                        gap:20px;
+                
+                        scrollbar-width:none;
+                
+                        -ms-overflow-style:none;
+                
+                    }
+                
+                    .nav-menu::-webkit-scrollbar{
+                
+                        display:none;
+                
+                    }
+                
+                }
