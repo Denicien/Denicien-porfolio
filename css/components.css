@@ -1038,3 +1038,42 @@ h1{
                 
                 
                 }
+                .menu-toggle{
+
+                    display:none;
+                
+                    background:none;
+                
+                    border:none;
+                
+                    font-size:1.7rem;
+                
+                    color:white;
+                
+                    cursor:pointer;
+                
+                }
+                .nav-link{
+
+                    transition:.3s;
+                
+                }
+                
+                .nav-link:hover{
+                
+                    transform:translateX(10px);
+                
+                }
+                .header{
+
+                    position:fixed;
+                
+                    top:0;
+                
+                    left:0;
+                
+                    width:100%;
+                
+                    z-index:1100;
+                
+                }

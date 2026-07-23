@@ -100,27 +100,77 @@
                 
                 
                 }
+                @media (max-width:768px){
 
-                @media (max-width: 768px){
-
+                    .menu-toggle{
+                
+                        display:block;
+                
+                        z-index:1001;
+                
+                    }
+                
                     .nav-menu{
+                
+                        position:fixed;
+                
+                        top:0;
+                
+                        right:-100%;
+                
+                        width:260px;
+                
+                        height:100vh;
+                
+                        background:#0f172a;
                 
                         display:flex;
                 
-                        overflow-x:auto;
+                        flex-direction:column;
                 
-                        gap:20px;
+                        justify-content:center;
                 
-                        scrollbar-width:none;
+                        align-items:center;
                 
-                        -ms-overflow-style:none;
+                        gap:35px;
+                
+                        transition:.35s ease;
+                
+                        z-index:1000;
+                
+                        box-shadow:-5px 0 25px rgba(0,0,0,.4);
                 
                     }
                 
-                    .nav-menu::-webkit-scrollbar{
+                    .nav-menu.active{
                 
-                        display:none;
+                        right:0;
                 
                     }
+                
+                }
+                .overlay{
+
+                    position:fixed;
+                
+                    inset:0;
+                
+                    background:rgba(0,0,0,.5);
+                
+                    opacity:0;
+                
+                    visibility:hidden;
+                
+                    transition:.3s;
+                
+                    z-index:999;
+                
+                }
+                
+                .overlay.active{
+                
+                    opacity:1;
+                
+                    visibility:visible;
                 
                 }
